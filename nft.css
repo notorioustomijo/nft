@@ -1,0 +1,92 @@
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+    color: #fff;
+}
+
+p {
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: 200;
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+
+#card{
+    margin: auto;
+    border: 1px solid hsl(217, 54%, 11%);
+    border-radius: 15px;
+    width: 20vw;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 2%;
+    margin-top: 50px;
+    background-color: hsl(216, 50%, 16%);
+    box-shadow: 20px 15px 25px 2px hsl(216, 53%, 7%), 
+    -10px 15px 25px 2px hsl(216, 53%, 7%);
+}
+
+.main-image {
+    height: 75%;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 5px;
+    
+
+}
+
+#first {
+    height: 10%;
+}
+
+#info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+
+}
+
+.sub-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    
+
+
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.icon2 {
+    margin-right: 4px;
+    height: 20px;
+}
+
+.boldtext {
+    font-weight: 600;
+}
+
+#last {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px 0;
+    font-size: 16px;
+}
+
+.eth {
+    color: hsl(178, 100%, 50%);
+}
