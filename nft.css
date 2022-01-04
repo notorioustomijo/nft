@@ -35,7 +35,6 @@ h1 {
     height: 75%;
     width: 100%;
     margin: 0 auto;
-    margin-top: 30px;
     border-radius: 5px;
     
 
@@ -90,3 +89,38 @@ h1 {
 .eth {
     color: hsl(178, 100%, 50%);
 }
+
+h1:hover {
+    color:hsl(178, 100%, 50%);
+}
+
+.boldtext:hover {
+    color:hsl(178, 100%, 50%);
+}
+
+.image-container {
+    position: relative;
+    margin-top: 20px;
+
+}
+
+.image-container .after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    color: #fff;
+}
+
+.image-container:hover .after {
+    display: block;
+    background:hsl(215, 51%, 70%);
+    border-radius: 5px;
+}
+
+/* #hover-view {
+    height: 5%;
+    width: 5%;
+} */
