@@ -75,6 +75,7 @@ h1 {
 
 .boldtext {
     font-weight: 600;
+    transition: all 500ms ease-in;
 }
 
 #last {
@@ -109,18 +110,53 @@ h1:hover {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 98%;
     display: none;
     color: #fff;
+    transition: all 1s ease-in;
 }
 
 .image-container:hover .after {
-    display: block;
-    background:hsl(215, 51%, 70%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:hsla(215, 52%, 70%, 0.459);
     border-radius: 5px;
 }
 
-/* #hover-view {
-    height: 5%;
-    width: 5%;
-} */
+#hover-view {
+    height:48px;
+    width: 48px;
+} 
+
+@media screen and (max-width: 1200px) {
+    #card {
+        width: 25vw;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #card {
+        width: 30vw;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    #card {
+        width: 35vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #card {
+        width: 40vw;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    #card {
+        width: 50vw;
+    }
+
+}
+
